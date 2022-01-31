@@ -1,0 +1,7 @@
+{
+  "name": "mimir",
+  "description": "Execute shell commands from a browser",
+  "path": "D:\\Code\\mimir\\app\\mimir.bat",
+  "type": "stdio",
+  "allowed_extensions": [ "ping_pong@example.org" ]
+}
