@@ -1,6 +1,6 @@
-<h1>bruh momennt</h1>
+<h1>hello these are the options</h1>
 
-<h2>bruhhhh fr??? nawww</h2>
+<h2>jk there are no options</h2>
 
 <style>
   h1 {
