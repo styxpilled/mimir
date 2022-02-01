@@ -1,3 +1,5 @@
+import browser from "webextension-polyfill";
+
 function onResponse(response) {
   console.log("Received " + response);
 }
@@ -16,7 +18,7 @@ browser.browserAction.onClicked.addListener(() => {
 
 browser.contextMenus.create({
   id: "copy-link-to-clipboard",
-  title: "Copy link to clipboard",
+  title: "Download with yt-dlp",
   contexts: ["link", "page", "video"],
 });
 

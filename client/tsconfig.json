@@ -1,0 +1,17 @@
+{
+	"compilerOptions": {
+    "lib": [
+      "ES6",
+      "DOM"
+    ],
+		"baseUrl": ".",
+		"paths": {
+			"$lib": ["src/lib"],
+			"$lib/*": ["src/lib/*"]
+		},
+    "types": ["webextension-polyfill"],
+    "typeRoots": ["node_modules/@types"],
+    "allowSyntheticDefaultImports": true
+  },
+	"include": ["src/**/*.ts", "src/**/*.svelte"]
+}
